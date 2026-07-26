@@ -1,0 +1,31 @@
+{
+  "name": "your-gallery-storefront",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.7",
+    "@types/d3-sankey": "^0.12.5",
+    "@types/three": "^0.185.1",
+    "@vitejs/plugin-react": "latest",
+    "d3": "^7.9.0",
+    "d3-geo": "^3.1.1",
+    "d3-sankey": "^0.12.3",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "react-simple-maps": "^3.0.0",
+    "three": "^0.185.1",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+gallery-frontend/dist/
+gallery-mini/dist/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Vite/Taro cache
+.vite/
+.taro/
+.cache/
+
+# xlsx source (not needed at runtime)
+*.xlsx
+
+# 注意：data/images/ 直接用 git 跟踪（不用 LFS）
